@@ -1,9 +1,13 @@
-﻿using ChatApp.sentiment_analysis;
+﻿
+//////////////////////////////////////////////////EXPERIMENT FOR OUTPUT TYPE ////////////////////////////////////////////////////
+
+//using ChatApp.sentiment_analysis;
 
 //while (true)
-    await SentimentAnalysis.AnalyseSentiment();
+//    await SentimentAnalysis.AnalyseSentiment();
 
 
+//////////////////////////////////////////////////EXPERIMENT FOR VECTOR SEARCH ////////////////////////////////////////////////////
 
-
-
+using ChatApp.vector_search;
+VectorOperationsInitiator.InitiateVectorOperations().GetAwaiter().GetResult();
