@@ -9,5 +9,13 @@
 
 //////////////////////////////////////////////////EXPERIMENT FOR VECTOR SEARCH ////////////////////////////////////////////////////
 
-using ChatApp.vector_search;
-VectorOperationsInitiator.InitiateVectorOperations().GetAwaiter().GetResult();
+//using ChatApp.vector_search;
+//VectorOperationsInitiator.InitiateVectorOperations().GetAwaiter().GetResult();
+
+
+//////////////////////////////////////////////////////////////IMAGE GENERATION ////////////////////////////////////////////////////
+
+using ChatApp.vision;
+
+ImageGeneration imageGeneration = new ImageGeneration();
+imageGeneration.InitiateImageGeneration();
